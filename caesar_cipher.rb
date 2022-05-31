@@ -29,3 +29,5 @@ def shift_byte(byte, shift_factor)
   end
   return byte
 end
+
+p caesar_cipher("What a string!", 5)
